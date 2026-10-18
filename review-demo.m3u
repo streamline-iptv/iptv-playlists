@@ -1,0 +1,14 @@
+#EXTM3U
+# Streamline - App Review demo playlist (legal test streams only).
+# Apple's own HLS test asset + Creative Commons open movies.
+# Provided solely so App Review can verify playback. The app ships no channels.
+#EXTINF:-1 group-title="Test",01 Apple HLS Test Stream
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 group-title="Open Movies",02 Big Buck Bunny (Creative Commons)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 group-title="Open Movies",03 Tears of Steel (Creative Commons)
+https://test-streams.mux.dev/tos_ismc/main.m3u8
+#EXTINF:-1 group-title="Open Movies",04 Tears of Steel HD (Creative Commons)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 group-title="Test",05 Mux Test Channel
+https://test-streams.mux.dev/pts_shift/master.m3u8
