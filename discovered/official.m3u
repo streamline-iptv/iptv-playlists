@@ -1169,3 +1169,21 @@ https://weblive.republicworld.com/liveorigin/republictv/playlist.m3u8
 https://cflive-esports-hindi.zee5.com/out/v1/c2a01fab468b452d9af1a1aa66644d9d/Zee_Keralam_ME_SD/index.m3u8
 #EXTINF:-1 tvg-id="IslamChannel.uk",Islam Channel (576p) [Not 24/7]
 https://live.islamchannel.tv/islamtv_english/live.m3u8
+#EXTINF:-1 tvg-id="CCTVPlus1.cn@SD",CCTV+ 1
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="GovoritMoskva.ru@SD",Govorit Moskva
+https://video.govoritmoskva.ru/rufm/index.m3u8
+#EXTINF:-1 tvg-id="ItelTVCanal2.ar@SD",Itel TV Canal 2
+https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
+#EXTINF:-1 tvg-id="Wapp.cl@SD",Wapp
+https://stream.wapptv.cl/video/index.m3u8
+#EXTINF:-1 tvg-id="ARDBTV.kh@SD",ARDB TV
+https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8
+#EXTINF:-1 tvg-id="QPVN.vn@HD",QPVN
+https://qpvn.vn/live/qpvn/master.m3u8
+#EXTINF:-1 tvg-id="Channel8.iq@SD",Channel8 (720p)
+https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="InterTV.ve@SD",Inter TV (Venezuela) (1080p)
+https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="RTPMemoria.pt",RTP Memória
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
