@@ -34,5 +34,12 @@ sources:
 # countries: ISO 3166-1 codes; categories: iptv-org category ids.
 discovery:
   focus:
-    countries: [kr, jp, bn, kh, id, la, my, mm, ph, sg, th, tl, vn]
+    # Southeast / East Asia (home markets) first, then major free-to-air markets worldwide.
+    countries: [kr, jp, bn, kh, id, la, my, mm, ph, sg, th, tl, vn, cn, tw, hk,
+                us, ca, mx, br, ar, cl, co,
+                gb, ie, fr, de, es, it, pt, nl, se, pl, tr, ua, ru, gr, ro,
+                sa, ae, eg, il, ir,
+                in, pk, bd, lk,
+                za, ng, ke,
+                au, nz]
     categories: [sports]
