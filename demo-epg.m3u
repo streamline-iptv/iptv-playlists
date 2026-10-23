@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://cdn.jsdelivr.net/gh/streamline-iptv/iptv-playlists@c6677e62505132533ccd3dc7bad3c5f799c437ea/demo-epg.xml"
+#EXTM3U url-tvg="https://cdn.jsdelivr.net/gh/streamline-iptv/iptv-playlists@main/demo-epg.xml"
 #EXTINF:-1 tvg-id="apple.demo" tvg-logo="" group-title="Demo",Apple Test Channel
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 #EXTINF:-1 tvg-id="bbb.demo" group-title="Demo",Big Buck Bunny TV

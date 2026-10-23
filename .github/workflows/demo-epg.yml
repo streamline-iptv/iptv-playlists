@@ -1,0 +1,52 @@
+name: Refresh demo EPG
+
+# Daily: regenerate demo-epg.xml (the guide demo-epg.m3u points at) for a rolling window of
+# 2 days back to 14 days ahead, and commit it to main when it changed. The output depends only
+# on the date, so a rerun on the same day is a no-op. The commit is pushed with GITHUB_TOKEN,
+# which does not trigger other workflows, so it does not start a directory build.
+on:
+  schedule:
+    - cron: "23 0 * * *"   # daily, 00:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: demo-epg
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate
+        run: python scripts/demo_epg.py
+
+      - name: Commit results
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add demo-epg.xml
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Refresh demo EPG"
+          git push -q
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # demo-epg.m3u loads the guide from jsDelivr @main, which can cache a branch for up to
+      # ~12 hours. A purge usually shortens that; if it does not, the old copy still covers
+      # 13+ days ahead, so this is best effort.
+      - name: Refresh jsDelivr cache
+        if: steps.commit.outputs.pushed == 'true'
+        continue-on-error: true
+        run: |
+          echo "purge demo-epg.xml: $(curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/demo-epg.xml" \
+            | jq -c '{status, throttled: [.paths[]?.throttled]}' 2>/dev/null || echo 'no JSON response')"
