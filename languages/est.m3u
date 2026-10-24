@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ETV.ee@SD" tvg-logo="https://i.imgur.com/5URjPgG.png" tvg-country="EE" tvg-language="est" group-title="General",ETV (720p)
+https://sb.err.ee/live/etv.m3u8
+#EXTINF:-1 tvg-id="ETVPlus.ee@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/ETV%2B_logo.png" tvg-country="EE" tvg-language="rus;est" group-title="Entertainment",ETV+ (720p)
+https://sb.err.ee/live/etvpluss.m3u8
+#EXTINF:-1 tvg-id="ETV2.ee@SD" tvg-logo="https://i.imgur.com/fUjGHDa.png" tvg-country="EE" tvg-language="est" group-title="Kids;Culture",ETV2 (720p)
+https://sb.err.ee/live/etv2.m3u8

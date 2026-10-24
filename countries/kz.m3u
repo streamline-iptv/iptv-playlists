@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="SilkWay.kz@SD" tvg-logo="https://i.imgur.com/SJNDksF.png" tvg-country="KZ" tvg-language="kaz;rus;eng" group-title="General",Silk Way (1080p)
+https://hlspackager.akamaized.net/live/DB/SILKWAY/SILKWAY/SILKWAY.m3u8
+#EXTINF:-1 tvg-id="Ulytau.kz@SD" tvg-logo="https://i.imgur.com/jTL6TvC.png" tvg-country="KZ" tvg-language="kaz;rus" group-title="General",Ulytau
+https://ulytau.tv/hls/master.m3u8

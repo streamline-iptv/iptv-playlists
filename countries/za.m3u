@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" tvg-country="ZA" tvg-language="eng" group-title="Outdoor;Relax;Documentary;Education",WildEarth (1080p)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01290-wildearth-oando/playlist.m3u8
+#EXTINF:-1 tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" tvg-country="ZA" tvg-language="eng" group-title="Outdoor;Relax;Documentary;Education",WildEarth (1080p)
+https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8
+#EXTINF:-1 tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" tvg-country="ZA" tvg-language="eng" group-title="Outdoor;Relax;Documentary;Education",WildEarth (1080p)
+https://wildearth-ono.amagi.tv/playlist/amg01290-wildearth-oando/playlist.m3u8
+#EXTINF:-1 tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" tvg-country="ZA" tvg-language="eng" group-title="Outdoor;Relax;Documentary;Education",WildEarth (1080p)
+https://wildearth-xumo.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" tvg-country="ZA" tvg-language="eng" group-title="Outdoor;Relax;Documentary;Education",WildEarth (1080p) [Geo-blocked]
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01290-wildearthmediap-wildearth-samsungnl/playlist.m3u8
+#EXTINF:-1 tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" tvg-country="ZA" tvg-language="eng" group-title="Outdoor;Relax;Documentary;Education",WildEarth (1080p) [Geo-blocked]
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01290-wildearthmediap-wildearth-samsungse/playlist.m3u8

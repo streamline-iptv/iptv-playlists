@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="RTA.af@SD" tvg-logo="https://i.imgur.com/pJU2KPh.png" tvg-country="AF" tvg-language="prd" group-title="General",RTA (1080p)
+https://rta-tv.akamaized.net/live/SD/RTA-1/RTA/RTA-1.m3u8

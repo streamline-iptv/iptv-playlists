@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ShiftTV.hr@SD" tvg-logo="https://i.imgur.com/mudXVT8.png" tvg-country="HR" tvg-language="hrv" group-title="Auto",Shift TV (1080p)
+https://hls.shift.tv/live/shifttv/playlist.m3u8
