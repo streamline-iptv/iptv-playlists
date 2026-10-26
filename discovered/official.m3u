@@ -1187,3 +1187,50 @@ https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="RTPMemoria.pt",RTP Memória
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTVPlus2.cn@SD",CCTV+ 2
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ZillarBartaNews.in@HD",ZillarBarta News
+https://server.zillarbarta.com/zillarbarta/index.m3u8
+#EXTINF:-1 tvg-id="30AGeorgiaHollywoodReview.us@SD",30A Georgia Hollywood Review
+https://30a-tv.com/gh.m3u8
+#EXTINF:-1 tvg-id="Atlas.us@SD",Atlas
+https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
+#EXTINF:-1 tvg-id="AricaTV.cl@SD",Arica TV
+https://envivo.arica.tv/hls/Live2025AricaTV.m3u8
+#EXTINF:-1 tvg-id="ZASTV.do@HD",ZAS TV
+https://cloud5.zastv.net/hls/zastv.m3u8
+#EXTINF:-1 tvg-id="VantageDance.ee@HD",Vantage Dance
+https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
+#EXTINF:-1 tvg-id="ParlamentodeNavarra.es@SD",Parlamento de Navarra
+https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
+#EXTINF:-1 tvg-id="TitoTV.es@HD",Tito TV
+https://cloud.tvomix.com/TITOTV/index.m3u8
+#EXTINF:-1 tvg-id="QTVGambia.gm@SD",QTV Gambia
+https://player.qtv.gm/hls/live.stream.m3u8
+#EXTINF:-1 tvg-id="SolTV.gq@SD",SolTV
+https://stream.solmediaeg.com/soltv/soltv.m3u8
+#EXTINF:-1 tvg-id="IonianTV.gr@SD",Ionian TV
+https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="OliTV.in@SD",Oli TV
+https://live.olidigital.in/olitv/olitv/index.m3u8
+#EXTINF:-1 tvg-id="ZBCartoon.in@HD",ZB Cartoon
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="FarraPlay.py@SD",Farra Play
+https://stream.farra.com.py/live/farra_low.m3u8
+#EXTINF:-1 tvg-id="UniverTV.ru@SD",Univer TV
+https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="BBSTV.ug@SD",BBS TV
+https://bbstv.ug/hls/ch01/index.m3u8
+#EXTINF:-1 tvg-id="30ARidiculousTV.us@SD",30A Ridiculous TV
+https://30a-tv.com/feeds/720p/63.m3u8
+#EXTINF:-1 tvg-id="La2Canarias.es",La 2 (Canarias)
+https://ztnr.rtve.es/ztnr/5468585.m3u8
+#EXTINF:-1 tvg-id="A2CNN.al",A2 CNN Albania
+https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal3Tacural.ar@SD",Canal 3 Tacural
+http://vivo.canal3tacural.com.ar:8081/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NorteTV.ar@SD",Norte TV (720p) [Not 24/7]
+https://ntvcanal7.com.ar:81/dash/stream.mpd
+#EXTINF:-1 tvg-id="UChannel.id@SD",U Channel
+#EXTVLCOPT:http-referrer=https://www.u-channel.tv
+https://srs.u-channel.tv/live/uchannel-tv.m3u8
