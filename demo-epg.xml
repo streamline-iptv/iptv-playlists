@@ -4,54 +4,6 @@
   <channel id="bbb.demo"><display-name>Big Buck Bunny TV</display-name></channel>
   <channel id="tos.demo"><display-name>Tears of Steel TV</display-name></channel>
   <channel id="mux.demo"><display-name>Mux Demo Channel</display-name></channel>
-  <programme start="20261026000000 +0000" stop="20261026020000 +0000" channel="apple.demo">
-    <title lang="en">Overnight Replay</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026020000 +0000" stop="20261026040000 +0000" channel="apple.demo">
-    <title lang="en">Early Risers</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026040000 +0000" stop="20261026060000 +0000" channel="apple.demo">
-    <title lang="en">Morning Show</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026060000 +0000" stop="20261026080000 +0000" channel="apple.demo">
-    <title lang="en">Late Morning</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026080000 +0000" stop="20261026100000 +0000" channel="apple.demo">
-    <title lang="en">Midday Feature</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026100000 +0000" stop="20261026120000 +0000" channel="apple.demo">
-    <title lang="en">Afternoon Matinee</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026120000 +0000" stop="20261026140000 +0000" channel="apple.demo">
-    <title lang="en">Teatime</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026140000 +0000" stop="20261026160000 +0000" channel="apple.demo">
-    <title lang="en">Early Evening</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026160000 +0000" stop="20261026180000 +0000" channel="apple.demo">
-    <title lang="en">Prime Time</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026180000 +0000" stop="20261026200000 +0000" channel="apple.demo">
-    <title lang="en">Late Night</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026200000 +0000" stop="20261026220000 +0000" channel="apple.demo">
-    <title lang="en">After Hours</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
-  <programme start="20261026220000 +0000" stop="20261027000000 +0000" channel="apple.demo">
-    <title lang="en">Night Owl</title>
-    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
-  </programme>
   <programme start="20261027000000 +0000" stop="20261027020000 +0000" channel="apple.demo">
     <title lang="en">Overnight Replay</title>
     <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
@@ -772,53 +724,53 @@
     <title lang="en">Night Owl</title>
     <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026000000 +0000" stop="20261026020000 +0000" channel="bbb.demo">
+  <programme start="20261111000000 +0000" stop="20261111020000 +0000" channel="apple.demo">
     <title lang="en">Overnight Replay</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026020000 +0000" stop="20261026040000 +0000" channel="bbb.demo">
+  <programme start="20261111020000 +0000" stop="20261111040000 +0000" channel="apple.demo">
     <title lang="en">Early Risers</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026040000 +0000" stop="20261026060000 +0000" channel="bbb.demo">
+  <programme start="20261111040000 +0000" stop="20261111060000 +0000" channel="apple.demo">
     <title lang="en">Morning Show</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026060000 +0000" stop="20261026080000 +0000" channel="bbb.demo">
+  <programme start="20261111060000 +0000" stop="20261111080000 +0000" channel="apple.demo">
     <title lang="en">Late Morning</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026080000 +0000" stop="20261026100000 +0000" channel="bbb.demo">
+  <programme start="20261111080000 +0000" stop="20261111100000 +0000" channel="apple.demo">
     <title lang="en">Midday Feature</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026100000 +0000" stop="20261026120000 +0000" channel="bbb.demo">
+  <programme start="20261111100000 +0000" stop="20261111120000 +0000" channel="apple.demo">
     <title lang="en">Afternoon Matinee</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026120000 +0000" stop="20261026140000 +0000" channel="bbb.demo">
+  <programme start="20261111120000 +0000" stop="20261111140000 +0000" channel="apple.demo">
     <title lang="en">Teatime</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026140000 +0000" stop="20261026160000 +0000" channel="bbb.demo">
+  <programme start="20261111140000 +0000" stop="20261111160000 +0000" channel="apple.demo">
     <title lang="en">Early Evening</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026160000 +0000" stop="20261026180000 +0000" channel="bbb.demo">
+  <programme start="20261111160000 +0000" stop="20261111180000 +0000" channel="apple.demo">
     <title lang="en">Prime Time</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026180000 +0000" stop="20261026200000 +0000" channel="bbb.demo">
+  <programme start="20261111180000 +0000" stop="20261111200000 +0000" channel="apple.demo">
     <title lang="en">Late Night</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026200000 +0000" stop="20261026220000 +0000" channel="bbb.demo">
+  <programme start="20261111200000 +0000" stop="20261111220000 +0000" channel="apple.demo">
     <title lang="en">After Hours</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
-  <programme start="20261026220000 +0000" stop="20261027000000 +0000" channel="bbb.demo">
+  <programme start="20261111220000 +0000" stop="20261112000000 +0000" channel="apple.demo">
     <title lang="en">Night Owl</title>
-    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Apple&#x27;s reference HLS adaptive-bitrate test stream.</desc>
   </programme>
   <programme start="20261027000000 +0000" stop="20261027020000 +0000" channel="bbb.demo">
     <title lang="en">Overnight Replay</title>
@@ -1540,53 +1492,53 @@
     <title lang="en">Night Owl</title>
     <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026000000 +0000" stop="20261026020000 +0000" channel="tos.demo">
+  <programme start="20261111000000 +0000" stop="20261111020000 +0000" channel="bbb.demo">
     <title lang="en">Overnight Replay</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026020000 +0000" stop="20261026040000 +0000" channel="tos.demo">
+  <programme start="20261111020000 +0000" stop="20261111040000 +0000" channel="bbb.demo">
     <title lang="en">Early Risers</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026040000 +0000" stop="20261026060000 +0000" channel="tos.demo">
+  <programme start="20261111040000 +0000" stop="20261111060000 +0000" channel="bbb.demo">
     <title lang="en">Morning Show</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026060000 +0000" stop="20261026080000 +0000" channel="tos.demo">
+  <programme start="20261111060000 +0000" stop="20261111080000 +0000" channel="bbb.demo">
     <title lang="en">Late Morning</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026080000 +0000" stop="20261026100000 +0000" channel="tos.demo">
+  <programme start="20261111080000 +0000" stop="20261111100000 +0000" channel="bbb.demo">
     <title lang="en">Midday Feature</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026100000 +0000" stop="20261026120000 +0000" channel="tos.demo">
+  <programme start="20261111100000 +0000" stop="20261111120000 +0000" channel="bbb.demo">
     <title lang="en">Afternoon Matinee</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026120000 +0000" stop="20261026140000 +0000" channel="tos.demo">
+  <programme start="20261111120000 +0000" stop="20261111140000 +0000" channel="bbb.demo">
     <title lang="en">Teatime</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026140000 +0000" stop="20261026160000 +0000" channel="tos.demo">
+  <programme start="20261111140000 +0000" stop="20261111160000 +0000" channel="bbb.demo">
     <title lang="en">Early Evening</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026160000 +0000" stop="20261026180000 +0000" channel="tos.demo">
+  <programme start="20261111160000 +0000" stop="20261111180000 +0000" channel="bbb.demo">
     <title lang="en">Prime Time</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026180000 +0000" stop="20261026200000 +0000" channel="tos.demo">
+  <programme start="20261111180000 +0000" stop="20261111200000 +0000" channel="bbb.demo">
     <title lang="en">Late Night</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026200000 +0000" stop="20261026220000 +0000" channel="tos.demo">
+  <programme start="20261111200000 +0000" stop="20261111220000 +0000" channel="bbb.demo">
     <title lang="en">After Hours</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026220000 +0000" stop="20261027000000 +0000" channel="tos.demo">
+  <programme start="20261111220000 +0000" stop="20261112000000 +0000" channel="bbb.demo">
     <title lang="en">Night Owl</title>
-    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
+    <desc lang="en">Big Buck Bunny — Blender open movie (Creative Commons).</desc>
   </programme>
   <programme start="20261027000000 +0000" stop="20261027020000 +0000" channel="tos.demo">
     <title lang="en">Overnight Replay</title>
@@ -2308,53 +2260,53 @@
     <title lang="en">Night Owl</title>
     <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026000000 +0000" stop="20261026020000 +0000" channel="mux.demo">
+  <programme start="20261111000000 +0000" stop="20261111020000 +0000" channel="tos.demo">
     <title lang="en">Overnight Replay</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026020000 +0000" stop="20261026040000 +0000" channel="mux.demo">
+  <programme start="20261111020000 +0000" stop="20261111040000 +0000" channel="tos.demo">
     <title lang="en">Early Risers</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026040000 +0000" stop="20261026060000 +0000" channel="mux.demo">
+  <programme start="20261111040000 +0000" stop="20261111060000 +0000" channel="tos.demo">
     <title lang="en">Morning Show</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026060000 +0000" stop="20261026080000 +0000" channel="mux.demo">
+  <programme start="20261111060000 +0000" stop="20261111080000 +0000" channel="tos.demo">
     <title lang="en">Late Morning</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026080000 +0000" stop="20261026100000 +0000" channel="mux.demo">
+  <programme start="20261111080000 +0000" stop="20261111100000 +0000" channel="tos.demo">
     <title lang="en">Midday Feature</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026100000 +0000" stop="20261026120000 +0000" channel="mux.demo">
+  <programme start="20261111100000 +0000" stop="20261111120000 +0000" channel="tos.demo">
     <title lang="en">Afternoon Matinee</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026120000 +0000" stop="20261026140000 +0000" channel="mux.demo">
+  <programme start="20261111120000 +0000" stop="20261111140000 +0000" channel="tos.demo">
     <title lang="en">Teatime</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026140000 +0000" stop="20261026160000 +0000" channel="mux.demo">
+  <programme start="20261111140000 +0000" stop="20261111160000 +0000" channel="tos.demo">
     <title lang="en">Early Evening</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026160000 +0000" stop="20261026180000 +0000" channel="mux.demo">
+  <programme start="20261111160000 +0000" stop="20261111180000 +0000" channel="tos.demo">
     <title lang="en">Prime Time</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026180000 +0000" stop="20261026200000 +0000" channel="mux.demo">
+  <programme start="20261111180000 +0000" stop="20261111200000 +0000" channel="tos.demo">
     <title lang="en">Late Night</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026200000 +0000" stop="20261026220000 +0000" channel="mux.demo">
+  <programme start="20261111200000 +0000" stop="20261111220000 +0000" channel="tos.demo">
     <title lang="en">After Hours</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
-  <programme start="20261026220000 +0000" stop="20261027000000 +0000" channel="mux.demo">
+  <programme start="20261111220000 +0000" stop="20261112000000 +0000" channel="tos.demo">
     <title lang="en">Night Owl</title>
-    <desc lang="en">Mux engineering demo stream.</desc>
+    <desc lang="en">Tears of Steel — Blender open movie (Creative Commons).</desc>
   </programme>
   <programme start="20261027000000 +0000" stop="20261027020000 +0000" channel="mux.demo">
     <title lang="en">Overnight Replay</title>
@@ -3073,6 +3025,54 @@
     <desc lang="en">Mux engineering demo stream.</desc>
   </programme>
   <programme start="20261110220000 +0000" stop="20261111000000 +0000" channel="mux.demo">
+    <title lang="en">Night Owl</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111000000 +0000" stop="20261111020000 +0000" channel="mux.demo">
+    <title lang="en">Overnight Replay</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111020000 +0000" stop="20261111040000 +0000" channel="mux.demo">
+    <title lang="en">Early Risers</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111040000 +0000" stop="20261111060000 +0000" channel="mux.demo">
+    <title lang="en">Morning Show</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111060000 +0000" stop="20261111080000 +0000" channel="mux.demo">
+    <title lang="en">Late Morning</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111080000 +0000" stop="20261111100000 +0000" channel="mux.demo">
+    <title lang="en">Midday Feature</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111100000 +0000" stop="20261111120000 +0000" channel="mux.demo">
+    <title lang="en">Afternoon Matinee</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111120000 +0000" stop="20261111140000 +0000" channel="mux.demo">
+    <title lang="en">Teatime</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111140000 +0000" stop="20261111160000 +0000" channel="mux.demo">
+    <title lang="en">Early Evening</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111160000 +0000" stop="20261111180000 +0000" channel="mux.demo">
+    <title lang="en">Prime Time</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111180000 +0000" stop="20261111200000 +0000" channel="mux.demo">
+    <title lang="en">Late Night</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111200000 +0000" stop="20261111220000 +0000" channel="mux.demo">
+    <title lang="en">After Hours</title>
+    <desc lang="en">Mux engineering demo stream.</desc>
+  </programme>
+  <programme start="20261111220000 +0000" stop="20261112000000 +0000" channel="mux.demo">
     <title lang="en">Night Owl</title>
     <desc lang="en">Mux engineering demo stream.</desc>
   </programme>
