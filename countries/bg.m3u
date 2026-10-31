@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CityTV.bg@SD" tvg-logo="https://i.imgur.com/mFL452f.png" tvg-country="BG" tvg-language="bul" group-title="Music",City TV (576p) [Not 24/7]
+https://tv.city.bg/play/tshls/citytv/index.m3u8
+#EXTINF:-1 tvg-id="TVSpravedlivaBulgariya.bg@SD" tvg-logo="https://tvsb.bg/theme/images/logo.png" tvg-country="BG" tvg-language="bul" group-title="General",TV Spravedliva Bulgariya
+https://tv.tvsb.bg/112.m3u8

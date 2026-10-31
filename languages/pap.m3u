@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="NosTVBonaire2.bq@SD" tvg-logo="https://i.imgur.com/9pQdGw1.png" tvg-country="BQ" tvg-language="pap;nld" group-title="General",NosTV Bonaire 2
+https://stream2.nostvbonaire.com/hls/0/stream.m3u8

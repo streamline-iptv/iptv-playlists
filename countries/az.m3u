@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="APATv.az@SD" tvg-logo="https://i.imgur.com/2CSW4V4.png" tvg-country="AZ" tvg-language="aze" group-title="News",APA Tv (1080p)
+http://stream.apa.tv/apastream/index.m3u8
+#EXTINF:-1 tvg-id="AzadTV.az@SD" tvg-logo="https://i.imgur.com/rDYSoRL.png" tvg-country="AZ" tvg-language="aze" group-title="General",Azad TV (1080p)
+#EXTVLCOPT:http-referrer=No response
+#EXTVLCOPT:http-user-agent=No response
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
+#EXTINF:-1 tvg-id="BakuTV.az@SD" tvg-logo="https://i.imgur.com/r4FzxSg.png" tvg-country="AZ" tvg-language="aze" group-title="News",Baku.TV
+https://rtmp.baku.tv/hls/bakutv.m3u8
