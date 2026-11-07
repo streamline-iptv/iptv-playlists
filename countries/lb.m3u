@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CharityTV.lb@SD" tvg-logo="https://i.imgur.com/U9z8WBY.png" tvg-country="LB" tvg-language="ara" group-title="Religious",Charity TV
+https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="PalestineAlYawm.lb@SD" tvg-logo="https://i.imgur.com/n8dSgx4.png" tvg-country="LB" tvg-language="ara" group-title="News",Palestine Al Yawm (720p)
+https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8

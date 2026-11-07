@@ -1,0 +1,10 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CityTV.bg@SD" tvg-logo="https://i.imgur.com/mFL452f.png" tvg-country="BG" tvg-language="bul" group-title="Music",City TV (576p) [Not 24/7]
+https://tv.city.bg/play/tshls/citytv/index.m3u8
+#EXTINF:-1 tvg-id="Kanal0.bg" tvg-logo="https://i.imgur.com/mycxET5.jpg" tvg-country="BG" group-title="General",Kanal 0
+#EXTVLCOPT:http-referrer=rn-tv.com
+https://old2.rn-tv.com/k0/stream.m3u8
+#EXTINF:-1 tvg-id="SuperToons.bg@SD" tvg-logo="https://i.imgur.com/e5fdQZl.png" tvg-country="BG" tvg-language="bul" group-title="Kids",Super Toons (1080p)
+https://d3bxvshzgfq6in.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8a0c583l9gryw/feed/samsung/streams/SUPERTOONS_EN/master.m3u8?token=737aa2c3f17862a448f403cd2ac2b5ef1a0c413e1cf080a13a19cea99119221f
+#EXTINF:-1 tvg-id="TVSpravedlivaBulgariya.bg@SD" tvg-logo="https://tvsb.bg/theme/images/logo.png" tvg-country="BG" tvg-language="bul" group-title="General",TV Spravedliva Bulgariya
+https://tv.tvsb.bg/112.m3u8

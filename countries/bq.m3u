@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="NosTVBonaire.bq" tvg-logo="https://i.imgur.com/GINI6oP.png" tvg-country="BQ" group-title="General",Nos TV Bonaire (1080p)
+https://stream1.nostvbonaire.com/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="NosTVBonaire2.bq@SD" tvg-logo="https://i.imgur.com/9pQdGw1.png" tvg-country="BQ" tvg-language="pap;nld" group-title="General",NosTV Bonaire 2
+https://stream2.nostvbonaire.com/hls/0/stream.m3u8

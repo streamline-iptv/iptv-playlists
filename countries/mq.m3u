@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ZitataTV.mq@SD" tvg-logo="https://i.imgur.com/KJmefse.png" tvg-country="MQ" tvg-language="fra" group-title="General",Zitata TV
+https://live.zitata.tv/direct-hls/playlist.m3u8

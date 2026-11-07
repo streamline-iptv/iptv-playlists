@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="TVM.mz@SD" tvg-logo="https://i.imgur.com/Vqv7R3Y.png" tvg-country="MZ" tvg-language="por" group-title="General",TVM
+https://stream.tvm.co.mz/hls/tvm/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-logo="https://i.imgur.com/fRV6p50.png" tvg-country="MZ" group-title="General",TVM Internacional
+https://stream.tvm.co.mz/hls/tvmi/playlist.m3u8

@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="MonacoInfo.mc@SD" tvg-logo="https://i.imgur.com/dIrKYH7.png" tvg-country="MC" tvg-language="fra" group-title="News",Monaco Info (1080p)
+https://webtv.monacoinfo.com/live/prod/index.m3u8

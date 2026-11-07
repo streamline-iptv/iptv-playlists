@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="DabangaTV.sd@SD" tvg-logo="https://i.imgur.com/BH1N6TA.png" tvg-country="SD" tvg-language="ara" group-title="News;Education",Dabanga TV (1080p)
+https://hls.dabangasudan.org/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SudanTV.sd@SD" tvg-logo="https://i.imgur.com/XUPAYAA.png" tvg-country="SD" tvg-language="ara" group-title="Undefined",Sudan TV (360p)
+https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8

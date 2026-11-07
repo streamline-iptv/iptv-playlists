@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ARDBTV.kh@SD" tvg-logo="https://i.imgur.com/yOncWla.png" tvg-country="KH" tvg-language="khm" group-title="Outdoor",ARDB TV (1080p) [Not 24/7]
+https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8
+#EXTINF:-1 tvg-id="SangkemTV.kh@SD" tvg-logo="https://i.imgur.com/728fAcC.png" tvg-country="KH" tvg-language="khm" group-title="Religious",Sangkem TV
+https://live.sangkemtv.com/memfs/sangkem.m3u8
