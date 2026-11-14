@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="JayaTV.lk@SD" tvg-logo="https://i.imgur.com/J8NA1i9.jpeg" tvg-country="LK" tvg-language="sin" group-title="Religious",Jaya TV
+https://live.jayatv.lk/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TalentTV.lk@HD" tvg-logo="https://talenttv.lk/logo-footer.png" tvg-country="LK" tvg-language="eng" group-title="Sports",Talent TV (480p)
+https://cast.talenttv.lk/hls/mcrlo1ygwpu8x4bj/index.m3u8

@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="BBSTV.ug@SD" tvg-logo="https://i.imgur.com/Hub1AXv.png" tvg-country="UG" tvg-language="lug" group-title="General",BBS TV
+https://bbstv.ug/hls/ch01/index.m3u8
