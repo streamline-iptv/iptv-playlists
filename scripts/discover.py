@@ -22,6 +22,7 @@ if no playlist files are found at all the script exits non-zero and writes no re
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import json
 import os
 import sys
@@ -47,9 +48,29 @@ OFFICIAL = ROOT / "discovered" / "official.m3u"
 REPORT = ROOT / "discovered" / "REPORT.md"
 RETRIES = 4
 MAX_WAIT = 120  # seconds; keeps the job well inside its 30-minute timeout
+# The job has 30 minutes. Runs on 2026-10-19, 11-09 and 11-16 were cancelled at that limit
+# (code-search rate limiting plus up to 200 sequential 30 s fetches) and so committed
+# nothing at all. Searching now stops at SEARCH_SHARE of the budget, files are fetched in
+# parallel, and whatever was read when the budget runs out is still reported and committed.
+BUDGET_MINUTES = 22
+SEARCH_SHARE = 0.5
+FETCH_WORKERS = 8
+FETCH_TIMEOUT = 20
 
 
-def github(url: str, token: str) -> dict:
+class Deadline:
+    def __init__(self, seconds: float, clock=time.monotonic):
+        self.clock = clock
+        self.end = clock() + seconds
+
+    def left(self) -> float:
+        return self.end - self.clock()
+
+    def passed(self, reserve: float = 0) -> bool:
+        return self.left() <= reserve
+
+
+def github(url: str, token: str, deadline: Deadline | None = None) -> dict:
     """GET a GitHub API URL. Rate-limit responses (429, or 403 with a retry hint) are retried
     with backoff, honouring Retry-After / X-RateLimit-Reset when GitHub sends them."""
     request = urllib.request.Request(url, headers={
@@ -71,6 +92,8 @@ def github(url: str, token: str) -> dict:
             else:
                 wait = 15 * 2 ** attempt
             wait = min(max(wait, 5), MAX_WAIT)
+            if deadline is not None and deadline.left() < wait:
+                raise
             print(f"rate limited ({error.code}), retrying in {wait}s")
             time.sleep(wait)
     raise AssertionError("unreachable")
@@ -97,14 +120,18 @@ class Focus:
         return labels + [c for c in channel.categories if c in self.categories]
 
 
-def candidate_files(token: str, focus: Focus) -> list[str]:
-    """Raw URLs of playlist files found by code search, focus searches first."""
+def candidate_files(token: str, focus: Focus, deadline: Deadline | None = None) -> list[str]:
+    """Raw URLs of playlist files found by code search, focus searches first. Stops early
+    when the search deadline passes, keeping what it found so far."""
     raw: list[str] = []
     for query, pages in focus.queries():
+        if deadline is not None and deadline.passed():
+            print(f"search budget used up; continuing with {len(set(raw))} files", flush=True)
+            break
         for page in range(1, pages + 1):
             q = urllib.parse.quote(query)
             try:
-                result = github(f"https://api.github.com/search/code?q={q}&per_page=100&page={page}", token)
+                result = github(f"https://api.github.com/search/code?q={q}&per_page=100&page={page}", token, deadline)
             except OSError as error:
                 print(f"search failed: {error}")
                 break
@@ -117,11 +144,28 @@ def candidate_files(token: str, focus: Focus) -> list[str]:
 
 def fetch(url: str) -> str | None:
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "doubo-discover"}), timeout=30) as r:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "doubo-discover"}), timeout=FETCH_TIMEOUT) as r:
             body = r.read(MAX_BYTES + 1)
         return None if len(body) > MAX_BYTES else body.decode("utf-8", errors="replace")
     except OSError:
         return None
+
+
+def fetch_all(urls: list[str], deadline: Deadline, get=fetch) -> dict[str, str | None]:
+    """Fetch the files in parallel, in order of priority; files not started before the
+    deadline are skipped. Returns {url: text} for every file that was attempted."""
+    texts: dict[str, str | None] = {}
+
+    def guarded(url: str) -> tuple[str, str | None] | None:
+        return None if deadline.passed(FETCH_TIMEOUT) else (url, get(url))
+
+    with concurrent.futures.ThreadPoolExecutor(FETCH_WORKERS) as pool:
+        for result in pool.map(guarded, urls):
+            if result is not None:
+                texts[result[0]] = result[1]
+    skipped = len(urls) - len(texts)
+    print(f"read {len(texts)} files" + (f", skipped {skipped} (time budget)" if skipped else ""), flush=True)
+    return texts
 
 
 def main() -> None:
@@ -129,7 +173,12 @@ def main() -> None:
     parser.add_argument("--data", type=Path, required=True)
     parser.add_argument("--listed", type=Path, required=True, help="current dist/index.m3u")
     parser.add_argument("--sources", type=Path, default=ROOT / "sources.yml", help="sources.yml with the discovery focus")
+    parser.add_argument("--budget-minutes", type=float, default=BUDGET_MINUTES,
+                        help="stop searching and fetching after this long, and report what was found")
     args = parser.parse_args()
+    budget = args.budget_minutes * 60
+    deadline = Deadline(budget)
+    search_deadline = Deadline(budget * SEARCH_SHARE)
     token = os.environ.get("GITHUB_TOKEN", "")
 
     channels = load_channels(args.data)
@@ -139,14 +188,16 @@ def main() -> None:
 
     focus = Focus(args.sources, args.data)
     print(f"focus searches: {', '.join(focus.terms) or 'none'}")
-    files = candidate_files(token, focus)
+    files = candidate_files(token, focus, search_deadline)
+    print(f"{len(files)} candidate files", flush=True)
     if not files:
         # Every search failed or came back empty: fail the job instead of committing an empty report.
         sys.exit("code search returned no playlist files; nothing to report")
 
     rows, added = [], []
+    texts = fetch_all(files, deadline)
     for url in files:
-        text = fetch(url)
+        text = texts.get(url)
         if not text or "#EXTINF" not in text:
             continue
         streams = parse_playlist(text, "discovered")
