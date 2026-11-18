@@ -37,7 +37,7 @@ jobs:
         env:
           # Optional DISCOVER_TOKEN secret (fine-grained PAT, public read-only) gets a higher code-search limit.
           GITHUB_TOKEN: ${{ secrets.DISCOVER_TOKEN || secrets.GITHUB_TOKEN }}
-        run: python scripts/discover.py --data ../database/data --listed ../index.m3u
+        run: python -u scripts/discover.py --data ../database/data --listed ../index.m3u
 
       - name: Commit results
         run: |
