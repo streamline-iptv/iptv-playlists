@@ -17,6 +17,7 @@ Paste any of these links into [Doubo](https://doubo.tv) or any player that suppo
 | By category | `https://cdn.jsdelivr.net/gh/streamline-iptv/iptv-playlists@dist/categories/<id>.m3u` (e.g. `news`, `kids`, `sports`) |
 | By language | `https://cdn.jsdelivr.net/gh/streamline-iptv/iptv-playlists@dist/languages/<code>.m3u` (ISO 639-3, e.g. `msa`, `ind`, `vie`) |
 | Machine-readable index | `https://cdn.jsdelivr.net/gh/streamline-iptv/iptv-playlists@dist/index.json` |
+| Programme guide (XMLTV) | `https://doubo.tv/epg/doubo.xml.gz` (already named in every playlist's `x-tvg-url` header; covers the channels with a public guide, about 800) |
 
 ### Popular countries
 

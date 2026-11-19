@@ -408,10 +408,17 @@ class Entry:
         return "\n".join([f"#EXTINF:-1 {head},{self.stream.title}", *self.stream.options, self.stream.url])
 
 
+# Programme guide for the directory's channel ids (XMLTV, gzipped), rebuilt daily by doubo.tv from the
+# Pluto TV, Plex, Samsung TV Plus and Roku guides that i.mjh.nz republishes. Players that read the
+# header (Doubo, TiviMate, VLC-based apps...) show what is on now and next.
+GUIDE_URL = "https://doubo.tv/epg/doubo.xml.gz"
+
+
 def write_playlist(path: Path, entries: list[Entry]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     ordered = sorted(entries, key=lambda e: (e.stream.title.lower(), e.stream.url))
-    path.write_text("#EXTM3U\n" + "".join(e.m3u() + "\n" for e in ordered), encoding="utf-8")
+    header = f'#EXTM3U x-tvg-url="{GUIDE_URL}"\n'
+    path.write_text(header + "".join(e.m3u() + "\n" for e in ordered), encoding="utf-8")
 
 
 def build(data: Path, streams_dir: Path, out: Path, check: bool, registry: Path | None = None) -> dict:
