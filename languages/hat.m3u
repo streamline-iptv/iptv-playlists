@@ -1,0 +1,5 @@
+#EXTM3U x-tvg-url="https://doubo.tv/epg/doubo.xml.gz"
+#EXTINF:-1 tvg-id="RadioTeleSentinel.us@SD" tvg-logo="https://i.imgur.com/hy3BJxj.png" tvg-country="US" tvg-language="fra;hat" group-title="Religious",Radio Tele Sentinel (720p)
+https://59d39900ebfb8.streamlock.net/radiotelesentinel/radiotelesentinel/playlist.m3u8
+#EXTINF:-1 tvg-id="TeleLouange.ht@SD" tvg-logo="https://i.imgur.com/DjnMUuL.png" tvg-country="HT" tvg-language="fra;hat" group-title="Religious",Tele Louange (1080p)
+https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8

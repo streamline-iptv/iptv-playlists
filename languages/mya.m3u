@@ -1,0 +1,5 @@
+#EXTM3U x-tvg-url="https://doubo.tv/epg/doubo.xml.gz"
+#EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-logo="https://i.imgur.com/VdezHOv.png" tvg-country="MM" tvg-language="mya" group-title="News",DVB TV (720p) [Geo-blocked]
+https://live-stream.dvb.no/hls/stream_src/index.m3u8
+#EXTINF:-1 tvg-id="UniTV.mm@SD" tvg-logo="https://admin.unitvmm.com/storage/images/channels/01KZND8DJVF4FBDKRQRXVN3KXP.png" tvg-country="MM" tvg-language="mya" group-title="General",Uni TV (1080p)
+https://live.unitvmm.com/live/unitv01/playlist.m3u8

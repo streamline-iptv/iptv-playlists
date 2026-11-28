@@ -1,0 +1,7 @@
+#EXTM3U x-tvg-url="https://doubo.tv/epg/doubo.xml.gz"
+#EXTINF:-1 tvg-id="APATv.az@SD" tvg-logo="https://i.imgur.com/2CSW4V4.png" tvg-country="AZ" tvg-language="aze" group-title="News",APA Tv
+http://stream.apa.tv/apastream/index.m3u8
+#EXTINF:-1 tvg-id="AzadTV.az@HD" tvg-logo="https://i.imgur.com/rDYSoRL.png" tvg-country="AZ" group-title="General",Azad TV HD
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
+#EXTINF:-1 tvg-id="IctimaiTV.az" tvg-logo="https://i.imgur.com/HzY4VMo.png" tvg-country="AZ" group-title="General",Ictimai TV [Geo-blocked]
+https://live.itv.az/itv.m3u8

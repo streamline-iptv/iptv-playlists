@@ -1,0 +1,3 @@
+#EXTM3U x-tvg-url="https://doubo.tv/epg/doubo.xml.gz"
+#EXTINF:-1 tvg-id="28kanala.es@SD" tvg-logo="https://i.imgur.com/DyvK28q.png" tvg-country="ES" tvg-language="eus" group-title="General",28 kanala
+https://streaming.28kanala.eus/hls/z.m3u8

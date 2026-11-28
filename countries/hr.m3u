@@ -1,0 +1,5 @@
+#EXTM3U x-tvg-url="https://doubo.tv/epg/doubo.xml.gz"
+#EXTINF:-1 tvg-id="LibertasTV.hr" tvg-logo="https://i.imgur.com/4R4fhbd.png" tvg-country="HR" group-title="General",Libertas TV
+https://stream.libertas.tv/memfs/6767a62d-34ce-4756-8df5-0722b0475870.m3u8
+#EXTINF:-1 tvg-id="ShiftTV.hr@SD" tvg-logo="https://i.imgur.com/mudXVT8.png" tvg-country="HR" tvg-language="hrv" group-title="Auto",Shift TV (1080p)
+https://hls.shift.tv/live/shifttv/playlist.m3u8
